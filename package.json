@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "aoife-my-love",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A simple site powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Greg LaFauci",
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.19.7",
