@@ -19,7 +19,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       
-      <Carousel className="full-width-md d-none d-md-block" indicators={false}>
+      <Carousel className="full-width-xs d-xs-block" indicators={false}>
       {images.map(pic =>
         <Carousel.Item>
           <Img fixed={pic.node.childImageSharp.fixed}/>
@@ -87,7 +87,7 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            fixed (width: 200) {
+            fixed (width: 300) {
               ...GatsbyImageSharpFixed
             }
           }
